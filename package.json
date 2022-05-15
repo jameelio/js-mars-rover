@@ -1,0 +1,29 @@
+{
+  "name": "js-mars-rover",
+  "version": "1.0.0",
+  "description": "mars rover challenge built by jameel",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha --exit test",
+    "test:watch":"npm run test -- --watch",
+    "start":"node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jameelio/js-mars-rover.git"
+  },
+  "keywords": [
+    "mars",
+    "rover"
+  ],
+  "author": "Jameelio",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jameelio/js-mars-rover/issues"
+  },
+  "homepage": "https://github.com/jameelio/js-mars-rover#readme",
+  "dependencies": {
+    "chai": "^4.3.6",
+    "mocha": "^10.0.0"
+  }
+}
